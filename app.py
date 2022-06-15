@@ -8,6 +8,7 @@ if plt == "Linux": pathlib.WindowsPath = pathlib.PosixPath
 
 #title
 st.title("4 xil mevani tasniflovchi model")
+st.subheader("Banan, uzum, shaftoli va tarvuzni farqlab oladigan model")
 
 #rasmni joylash
 file = st.file_uploader("Rasm yuklash", type=["png", "jpeg", "gif", "svg", "jpg"])
